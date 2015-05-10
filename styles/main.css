@@ -1,3 +1,7 @@
+button {
+	text-transform: capitalize;
+}
+
 ul {
 	list-style: none;
 }
@@ -5,4 +9,9 @@ ul {
 li::after {
 	content: "x";
 	color: #999;
+}
+
+.task-text {
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
