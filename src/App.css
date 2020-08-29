@@ -1,0 +1,36 @@
+Body {
+  background-image: url(./assets/background-blue.gif);
+}
+
+header {
+  color: red;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: gray solid;
+}
+
+.todo-item span {
+  margin-right: 1em;
+  color: red;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+form {
+  text-align: center;
+}
+
+.todo-list {
+  text-align: center;
+}
+
+marquee {
+  font-size: 2rem;
+  margin: 2rem 0;
+  color: yellow;
+}
