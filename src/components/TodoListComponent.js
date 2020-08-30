@@ -5,7 +5,7 @@ const TodoListComponent = ({todoListData}) => {
     return(
         <ul className="todo-list">
             {todoListData.map(todo => (
-                <TodoItem text={todo.todo} key={todo.id} />
+                <TodoItem text={todo.todo} key={todo.id} todoListData={todoListData}/>
             ))}
         </ul>
     )
