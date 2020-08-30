@@ -11,10 +11,12 @@ const InputComponent = ({inputText, setInputText, setTodoListData, todoListData}
         setInputText('');
     }
     return(
+        <div className="form-container">
         <form>
             <input value={inputText} onChange={inputTextHandler}></input>
             <button onClick={addButtonHandler}>Add</button>
         </form>
+        </div>
     )
 };
 

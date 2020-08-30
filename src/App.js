@@ -9,15 +9,10 @@ function App() {
   return (
     <div className="App">
       <header>
-        <img src="assets/spinning-skull.gif" alt="spinning skull" />
-        Warez Todo List
-        <img src="assets/spinning-skull.gif" alt="spinning skull" />
+        WYAO
       </header>
-      <marquee>Welcome to my homepage!</marquee>
-      {/* <img src="assets/fire.gif" alt="file" /> */}
       <InputComponent inputText={inputText} setInputText={setInputText} todoListData={todoListData} setTodoListData={setTodoListData} />
       <TodoListComponent todoListData={todoListData} setTodoListData={setTodoListData} />
-      <footer><img src="assets/under-construction.gif" alt="under contruction" /></footer>
     </div>
   );
 }
